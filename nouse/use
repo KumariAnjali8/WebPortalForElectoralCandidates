@@ -1,0 +1,40 @@
+<div class="att">
+        <?php
+        if ($result->num_rows > 0) {?>
+   <?php echo "<ul>";?>
+
+   <?php while($row = $result->fetch_assoc()) {?>
+    <?php //echo "<li>";?>
+    <div class="container">   
+    <?php   echo "<li><a href='profile.php?Cid=" . $row['Cid'] . "'>" . $row['Cname'] . "</a></li>";
+?>
+   <?php }?>
+     </div>
+    <?php echo "</ul>";?>
+    
+<?php }?><?php mysqli_close($con);?>
+</div>
+<select name="Dept" aria-placeholder="select your Department" required>
+          <option value="B.A(English)">B.A(English)</option>
+          <option value="B.A(History)">B.A(History)</option>
+          <option value="B.A(Sociology)">B.A(Sociology)</option>
+          <option value="B.A(political science)">B.A(Political Science)</option>
+          <option value="B.A(Pyschology)">B.A(Pyschology)</option>
+          <option value="B.A(economics)">B.A(economics)</option>
+          <option value="B.A(hindi)">B.A(hindi)</option>
+          <option value="B.A(urdu)">B.A(urdu)</option>
+          <option value="B.A(philosophy)">B.A(philosophy)</option>
+          <option value="B.A(sanskrit)">B.A(sanskrit)</option>
+          <option value="B.A(music)">B.A(music)</option>
+          <option value="B.Sc(Botany)">B.Sc(Botany)</option>
+          <option value="B.Sc(Chemistry)">B.Sc(Chemistry)</option>
+          <option value="B.Sc(Physics)">B.Sc(Physics)</option>
+          <option value="B.Sc(Zoology)">B.Sc(Zoology)</option>
+          <option value="B.Sc(Statistics)">B.Sc(Statistics)</option>
+          <option value="B.Sc(Mathematics)">B.Sc(Mathematics)</option>
+          <option value="BCA">BCA</option>
+          <option value="BBA(English)">BBA(English)</option>
+          <option value="BSW">BSW</option>
+          <option value="B.Com">B.Com</option>
+          </select>
+          <i></i>

@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Freeman&family=Prata&family=Rowdies:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg{
+    background:none;
+}
+.background{
+    background:rgba(34, 28, 28, 0.7)url(post.png);
+    background-size:cover;
+    height: 400vh;
+    background-blend-mode:hard-light;
+}
+.navbar{ 
+    display:flex;
+    align-items: center;
+    justify-content:flex-end;
+    position: sticky;
+    top:0;
+    cursor: pointer;
+
+}
+.btn{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: none;
+    height:50px;
+    width:200px;
+    
+}
+.nav-list{
+    display:flex;
+width:50%;
+height: 40px;
+justify-content:space-around;
+list-style: none;
+align-items: center;
+}
+.nav-list li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: aliceblue;
+}
+.dropdown{
+    width:fit-content;
+
+}
+.dropdown_items{
+    padding:10px;
+    background-color:rgb(118, 155, 236);
+    width:fit-content;
+    display: none;
+    position: absolute;
+    
+}
+.item{
+    padding:10px;
+}
+.dropdown:hover .dropdown_items{
+    display: block;
+}
+.item:hover{
+    background-color: rgb(36, 41, 71);
+    color:white;
+    cursor:pointer;
+}
+.title{
+display: flex;
+margin-top: 120px;
+flex-direction: row;
+justify-content: space-around;
+height: 500px;
+}
+.photo img{
+    height: 500px;
+    width:500px;
+    border-radius: 30%;
+   
+    border-color: azure;
+}
+.name{
+    color: rgb(14, 7, 30);
+    font-family:"Rowdies", sans-serif;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.motto{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: aliceblue;
+font-size: 25px;
+padding: 15px;
+}
+.text{
+    font-family:"Freeman", sans-serif;
+ font-size: 40px;
+    color: rgb(47, 25, 71);
+}
+.about{padding: 15px;
+    font-family: "Dosis", sans-serif;
+    color: rgb(234, 242, 249);
+    font-size: 30px;
+}
+.promise{
+    font-family: "Dosis", sans-serif;
+    color: rgb(229, 241, 252);
+    padding-left: 15px;
+    font-size: 30px;}
+    
+.btn{
+    height: 30px;
+    width:30px;
+    margin-left: 20px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    
+}

@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg{
+    background: rgba(140, 89, 180, 0.7)url('about us.png');
+    background-size: cover;
+    background-blend-mode: darken;
+    min-height: 150vh;
+}
+.navbar{ 
+    background-color: rgba(157, 73, 209, 0.752);
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: sticky;
+    top:0;
+    cursor: pointer;
+    list-style: none;
+}
+.nav-list{
+   display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-left: 200px;
+
+}
+.logo{
+    padding-right: 30px;
+}
+.navbar ul li{
+    padding-right: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar ul li a{
+    color:aliceblue;
+    font-size: 18px;
+    text-decoration: none;
+}
+.content p{
+    padding: 10px;
+    color: aliceblue;
+    border-radius: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.head{
+    text-decoration: underline;
+    padding: 10px;
+    color: rgb(252, 252, 252);
+  
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}

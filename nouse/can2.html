@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Election Candidate Card</title>
+<link rel="stylesheet" href="can2.css">
+</head>
+<body>
+
+<div class="card">
+  <h2 id="candidateName">Rajni Gupta</h2>
+  <p id="candidateParty">Post: General secretary</p>
+  <p id="candidateManifesto">Manifesto: If I am elected as the General Secretary of the Magadh mahila college, I will,
+    <p>Effectively broadcast news and events to students via facebook or word of mouth.</p>
+    <p>Update the mailing list regularly.</p>
+    <p>Encourage participation from members.</p>
+    <p>Organise and coordinate committee meetings and events.</p>
+    <p>Help the committee with anything, even out of my role specifics.</p>
+    <p>Be available to answer any queries at any time.</p>
+  <button class="edit-button" onclick="editCard()">Edit</button>
+</div>
+
+<script>
+  function editCard() {
+    var name = prompt("Enter candidate's name:", document.getElementById('candidateName').innerText);
+    var party = prompt("Enter candidate's party:", document.getElementById('candidateParty').innerText);
+    var manifesto = prompt("Enter candidate's manifesto:", document.getElementById('candidateManifesto').innerText);
+    
+    if (name !== null && party !== null && manifesto !== null) {
+      document.getElementById('candidateName').innerText = name;
+      document.getElementById('candidateParty').innerText = "Party: " + party;
+      document.getElementById('candidateManifesto').innerText = "Manifesto: " + manifesto;
+    }
+  }
+</script>
+
+</body>
+</html>

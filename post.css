@@ -1,0 +1,112 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+.background
+{
+background:rgba(137, 187, 205, 0.7)url(i2.png);
+background-size:cover;
+height:750px;
+background-blend-mode:darken;
+}
+
+.title
+{            
+padding:50px;
+background-blend-mode:hard-light;
+}
+
+.gs
+{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: rgb(255, 229, 151);
+font-size: 85px;
+display:flex;
+align-items: center;
+justify-content: center;
+}
+
+.sectiontag
+{
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: rgba(255, 253, 112, 0.89);
+font-weight: 100;
+font-size: 40px;
+display: flex;
+justify-content: center;
+}
+
+.att ul 
+{
+display: flex;
+flex-direction: row;
+white-space: nowrap;
+justify-content: space-between;
+}
+
+.att ul li 
+{
+list-style:none;
+display: flex;
+justify-content:center;
+}
+
+.att a
+{
+color:rgb(158, 28, 28);
+text-decoration:dashed;
+display: flex;
+justify-content: center;
+}
+
+.hidden
+{
+display:none;
+position: absolute;
+}
+  
+.container:hover .hidden
+{
+display:inline;
+background-color: rgb(62, 58, 53);
+color:rgb(212, 197, 197);
+justify-content: center;
+}
+  
+.att li img{
+height: 170px;
+width: 160px;
+border-radius:1;
+padding-top: 20px;
+padding-right: 20px;
+padding-left: 20px;
+align-items: center;
+}
+
+h4{
+width:20;
+align-items: center;
+padding-left: 20px;
+}
+
+.container{
+margin-right: 30px;
+border:2px;
+height:250px;
+width:250px;
+align-items: center;
+background-color: rgb(231, 231, 190);
+border-radius: 5px;
+}
+
+.candidates
+{
+margin:20px;
+}
+
+.info
+{
+height:600px;
+background-color: rgb(194, 237, 107);
+}

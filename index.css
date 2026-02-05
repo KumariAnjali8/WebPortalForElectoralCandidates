@@ -1,0 +1,217 @@
+/* css of home page 
+ index.css*/
+ 
+*{
+    
+    margin: 0px;
+    padding: 0px;
+}
+.bg{
+    background: url('index.jpg');
+    background-size: cover;
+}
+
+
+.navbar{
+   
+    font-family:"ubuntu",sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 40px;
+    padding-top: 10px;
+    position: sticky;
+}
+    
+
+
+.navbar ul{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    list-style: none;
+    height: 30px;
+  
+      
+}
+
+.navbar ul li{
+    background: none;
+    padding: 0 12px;
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px;
+    font-size: small;
+   
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+.navbar ul li:hover{
+    color: brown;
+    transition: all 0.4s ease;
+}
+
+
+.logo img{
+    
+    padding: 0 8px;
+    height:80px;
+    width: 60px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.6rem;
+    width:60px;
+}
+
+.container {
+    background: url('F1.png');
+    width: 100%;
+    height: 120vh;
+    background-size: cover;
+    background-position:center;
+   
+}
+
+.container li{
+    background-color:white;
+    color:black;  
+
+}
+
+.dropdown{
+    width:fit-content;
+
+}
+.dropdown_items{
+    padding:10px;
+    background-color:rgb(31, 49, 64);
+    width:fit-content;
+    display: none;
+    position: absolute;
+    border-radius: 10%;
+    
+}
+.item{
+    padding:10px;
+}
+.dropdown:hover .dropdown_items{
+    display: block;
+}
+.item:hover{
+    background-color:rgb(85, 143, 218);
+    color:white;
+    cursor:pointer;
+}
+.title{display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin-top: 70px;
+    padding: 40px;
+    height: 200px;
+    width:400px;
+}
+.t1
+    {display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    margin: 20px;
+    padding-top: 40px;
+    padding-left: 50px;
+    font-size: 70px;
+    color: aliceblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif }
+
+    .notice{
+        background: url('i2.png');
+        height: 60vh;
+        background-size: cover;
+        margin-top: 30px;
+        padding-top: 40px;
+        display: flex;
+        align-items: center;
+        
+        flex-direction: column;
+        
+    }
+    .notice h2{
+       
+        padding-left: 30px;
+        color: antiquewhite;
+    }
+    .date{
+        background-color: rgb(162, 214, 246);
+        height: 200px;
+        width: 600px;
+    
+        border-radius: 10%;
+        padding: 10px;
+        align-items: flex-start;
+        display: flex
+        ;
+        flex-direction: column;
+
+    }
+    .date ul{
+        text-decoration: none;
+    }
+    .date li{
+       
+        padding: 10px;
+        font-size: 24px;
+        color: rgb(44, 42, 42);
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    .about{
+        background: rgba(70, 70, 135, 0.682)url('i1.png');
+        background-size: cover;
+        
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 40px;
+        padding-left: 60px;
+    }
+    .about h1{
+        font-size: 35px;
+        color: aliceblue;
+    }
+    .about p{
+        display: flex;
+        width: 600px;
+        justify-content: flex-start;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        height: 300px;
+      padding-top: 87px;
+        color: rgb(236, 240, 241);
+
+    }
+    .mq{
+        font-size: 22px;
+    }
+    .mq a{
+        color: rgb(33, 31, 31);
+        text-decoration: none;
+        
+    }
+    .text-footer{
+        text-align: center;
+        padding: 5px 0;
+        font-family: 'Times New Roman', Times, serif;
+        display:flex;
+        height: 20px;
+        justify-content: center;
+        color:rgb(0, 0, 0);
+        background-color: rgb(140, 173, 235);
+        
+    }

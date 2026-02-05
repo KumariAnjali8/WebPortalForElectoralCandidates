@@ -1,0 +1,12 @@
+.del{
+    height:70px;
+    background-color: rgb(33, 4, 61);
+    color: azure;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:larger;
+    margin-left: 30px;
+    width:150px;
+    border-radius: 10%;
+    border: none;
+
+}

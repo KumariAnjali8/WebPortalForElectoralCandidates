@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Freeman&family=Prata&family=Rowdies:wght@300;400;700&display=swap');
+.navbar{
+   
+    font-family:"Freeman", sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding-right: 40px;
+    padding-top: 10px;
+    position: sticky;
+    cursor: pointer;
+}
+    
+
+
+.navbar ul{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    list-style: none;
+    height: 30px;
+  
+      
+}
+
+.navbar ul li{
+    background: none;
+    padding: 0 12px;
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px;
+    font-size: small;
+   
+
+}
+.navbar ul li a{
+    font-size: 16px;
+   
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+.navbar ul li:hover{
+    color: brown;
+    transition: all 0.4s ease;
+}
+.dropdown{
+    z-index: 10;
+    width:fit-content;
+
+}
+.dropdown_items{
+    padding:10px;
+    background-color:rgb(31, 49, 64);
+    width:fit-content;
+    display: none;
+    position: absolute;
+    border-radius: 10%;
+    
+}
+.item{
+    padding:10px;
+}
+.dropdown:hover .dropdown_items{
+    display: block;
+}
+.item:hover{
+    background-color:rgb(85, 143, 218);
+    color:white;
+    cursor:pointer;
+}

@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg{
+    background: rgba(140, 89, 180, 0.7)url('contact.png');
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 100vh;
+}
+
+.navi{
+
+    background:rgb(red, green, blue) ;
+    font-family:"ubuntu",sans-serif;
+}
+    
+
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 50px;
+    background-color:white;
+    color:black;  
+}
+
+nav ul li{
+    padding: 0 12px;
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px;
+    font-size: small;
+
+}
+
+nav ul li:hover{
+    color: brown;
+    transition: all 0.4s ease;
+}
+
+
+.logo img{
+    width: 44px;
+    padding: 0 8px;
+    height: 130px;
+    width: 500px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.6rem;
+}
+
+.contact{
+   margin-top: 30px;
+   margin-bottom: 30px;
+    margin-left: 30px;
+}
